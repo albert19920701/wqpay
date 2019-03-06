@@ -7,3 +7,4 @@
  */
 echo 'hello world~';
 echo "just a test";
+echo "git common test";
