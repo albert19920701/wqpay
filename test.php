@@ -6,3 +6,4 @@
  * Time: 11:37
  */
 echo 'hello world~';
+echo "just a test";
