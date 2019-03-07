@@ -6,5 +6,4 @@
  * Time: 11:37
  */
 echo 'hello world~';
-echo "just a test";
-echo "git common test";
+echo "just a test for git common";
