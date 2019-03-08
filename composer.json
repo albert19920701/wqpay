@@ -1,0 +1,19 @@
+{
+    "name": "albert19920701/wqpay",
+    "description": "Unified payments for weique",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "albert19920701",
+            "email": "13057508157@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "wqpay\\": "src/"
+        }
+    }
+}
