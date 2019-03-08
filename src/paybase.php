@@ -8,8 +8,18 @@
 namespace wqpay;
 class paybase
 {
+    public $type;
     public function __construct()
     {
-        echo 'just a test';
+        $this -> type = 1;
+    }
+
+    /**
+     *
+     */
+    public function index()
+    {
+        echo $this -> type . PHP_EOL;
+        echo 'hello world';
     }
 }

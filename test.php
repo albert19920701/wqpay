@@ -5,12 +5,6 @@
  * Date: 2019/3/6
  * Time: 11:37
  */
-namespace wqpay;
-
-class test
-{
-    public static  function index()
-    {
-        echo 'weique payments test';
-    }
-}
+require "./vendor/autoload.php";
+$test = new wqpay\paybase();
+$test -> index();
