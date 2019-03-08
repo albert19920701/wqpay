@@ -8,18 +8,11 @@
 namespace wqpay;
 class paybase
 {
-    public $type;
-    public function __construct()
-    {
-        $this -> type = 1;
-    }
+    protected $dis;
 
-    /**
-     *
-     */
-    public function index()
+    public function setDisBehavior(DiscountBehavior $discountBehavior)
     {
-        echo $this -> type . PHP_EOL;
-        echo 'hello world';
+        $this -> dis = $discountBehavior;
     }
+    public function payAction(){}
 }
