@@ -5,5 +5,12 @@
  * Date: 2019/3/6
  * Time: 11:37
  */
-echo 'hello world~';
-echo "just a test for git common";
+namespace Repository\wqpay;
+
+class test
+{
+    public  function index()
+    {
+        echo 'weique payments test';
+    }
+}
