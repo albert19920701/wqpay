@@ -8,7 +8,7 @@
 namespace wqpay;
 class paybase
 {
-    protected $dis;
+    public $dis;
 
     public function setDisBehavior(DiscountBehavior $discountBehavior)
     {

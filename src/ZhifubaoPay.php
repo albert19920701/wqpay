@@ -11,6 +11,7 @@ class ZhifubaoPay extends paybase
 {
     public  function payAction()
     {
-        echo 'This is a function to implement payaction by zhifubao';
+        $this -> dis -> DiscountAction();
+        echo 'This is a function to implement payaction by zhifubao' . PHP_EOL;
     }
 }

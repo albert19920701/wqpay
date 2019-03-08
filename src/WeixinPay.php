@@ -11,6 +11,8 @@ class WeixinPay extends paybase
 {
     public function payAction()
     {
-        echo 'This is a function to implements payaction by weixin';
+        $dis = $this -> dis;
+        $dis -> DiscountAction();
+        echo 'This is a function to implements payaction by weixin' . PHP_EOL;
     }
 }

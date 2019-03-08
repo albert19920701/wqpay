@@ -6,5 +6,9 @@
  * Time: 11:37
  */
 require "./vendor/autoload.php";
-$test = new wqpay\paybase();
-$test -> index();
+$wx = new wqpay\WeixinPay();
+$wx -> setDisBehavior(new \wqpay\IntegralDiscount());
+$wx -> payAction();
+$zfb = new \wqpay\ZhifubaoPay();
+$zfb -> setDisBehavior(new \wqpay\CashDiscount());
+$zfb -> payAction();
